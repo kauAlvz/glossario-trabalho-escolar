@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,800;0,900;1,200;1,300;1,700;1,800;1,900&display=swap');
+@import url(img.css);
 *{
     margin: 0;
     padding: 0;
@@ -46,7 +47,7 @@ header .button ul li:hover{
 }
 main{
     display: grid;
-    grid-template-columns: 450px 450px 450px;
+    grid-template-columns: 33.3333333333% 33.3333333333% 33.3333333333%;
     place-items: center;
 
     margin: 0;
@@ -65,186 +66,6 @@ main{
 }
 .card h2{
     margin: 5px;
-}
-.img1{
-    background: url(images/astronomia.jpg) center/cover;
-    
-    border-radius: 10px;
-    margin-bottom: 5px;
-
-    height: 200px;
-    width: 100%;
-}
-.img2{
-    background: url(images/aurora.jpg) center/cover;
-    
-    border-radius: 10px;
-    margin-bottom: 5px;
-
-    height: 200px;
-    width: 100%;
-}
-.img3{
-    background: url(images/cometa.jpg) center/cover;
-    
-    border-radius: 10px;
-    margin-bottom: 5px;
-
-    height: 200px;
-    width: 100%;
-}
-.img4{
-    background: url(images/eclipse.jpg) center/cover;
-    
-    border-radius: 10px;
-    margin-bottom: 5px;
-
-    height: 200px;
-    width: 100%;
-}
-.img5{
-    background: url(images/estrela.jpg) center/cover;
-    
-    border-radius: 10px;
-    margin-bottom: 5px;
-
-    height: 200px;
-    width: 100%;
-}
-.img6{
-    background: url(images/foguete.jpg) center/cover;
-    
-    border-radius: 10px;
-    margin-bottom: 5px;
-
-    height: 200px;
-    width: 100%;
-}
-.img7{
-    background: url(images/galaxia.jpg) center/cover;
-    
-    border-radius: 10px;
-    margin-bottom: 5px;
-
-    height: 200px;
-    width: 100%;
-}
-.img8{
-    background: url(images/lua.jpg) center/cover;
-    
-    border-radius: 10px;
-    margin-bottom: 5px;
-
-    height: 200px;
-    width: 100%;
-}
-.img9{
-    background: url(images/meteoro.jpg) center/cover;
-    
-    border-radius: 10px;
-    margin-bottom: 5px;
-
-    height: 200px;
-    width: 100%;
-}
-.img10{
-    background: url(images/nasa.jpg) center/cover;
-    
-    border-radius: 10px;
-    margin-bottom: 5px;
-
-    height: 200px;
-    width: 100%;
-}
-.img11{
-    background: url(images/planeta.jpg) center/cover;
-    
-    border-radius: 10px;
-    margin-bottom: 5px;
-
-    height: 200px;
-    width: 100%;
-}
-.img12{
-    background: url(images/pulsar.jpg) center/cover;
-    
-    border-radius: 10px;
-    margin-bottom: 5px;
-
-    height: 200px;
-    width: 100%;
-}
-.img13{
-    background: url(images/quasar.png) center/cover;
-    
-    border-radius: 10px;
-    margin-bottom: 5px;
-
-    height: 200px;
-    width: 100%;
-}
-.img14{
-    background: url(images/satelite.jpg) center/cover;
-    
-    border-radius: 10px;
-    margin-bottom: 5px;
-
-    height: 200px;
-    width: 100%;
-}
-.img15{
-    background: url(images/sistema-solar.jpg) center/cover;
-    
-    border-radius: 10px;
-    margin-bottom: 5px;
-
-    height: 200px;
-    width: 100%;
-}
-.img16{
-    background: url(images/sol.jpg) center/cover;
-    
-    border-radius: 10px;
-    margin-bottom: 5px;
-
-    height: 200px;
-    width: 100%;
-}
-.img17{
-    background: url(images/spacex.jpg) center/cover;
-    
-    border-radius: 10px;
-    margin-bottom: 5px;
-
-    height: 200px;
-    width: 100%;
-}
-.img18{
-    background: url(images/universo.jpg) center/cover;
-    
-    border-radius: 10px;
-    margin-bottom: 5px;
-
-    height: 200px;
-    width: 100%;
-}
-.img19{
-    background: url(images/uranografia.jpg) center/cover;
-    
-    border-radius: 10px;
-    margin-bottom: 5px;
-
-    height: 200px;
-    width: 100%;
-}
-.img20{
-    background: url(images/via-lactea.jpg) center/cover;
-    
-    border-radius: 10px;
-    margin-bottom: 5px;
-
-    height: 200px;
-    width: 100%;
 }
 .cards-participantes{
     display: grid;
@@ -310,31 +131,24 @@ li{
     main{
         grid-template-columns: 50% 50%;
         place-items: center;
+        margin: 0;
     }
 }
 @media screen and (max-width: 1125px) {
     main{
         grid-template-columns: 50% 50%;
-        place-items: center;
-        margin: 0;
     }
     .cards-participantes{
-        grid-template-columns: 300px;
-        align-items: center;
-        justify-content: center;
+        grid-template-columns: 100%;
+        place-items: center;
     }
 }
 @media screen and (max-width: 995px) {
     main{
         grid-template-columns: 100%;
-        place-items: center;
-        margin: 0;
     }
     .cards-participantes{
         grid-template-columns: 100%;
-        place-items: center;
-
-        margin: 0;
     }
 }
 @media screen and (max-width: 480px) {
@@ -348,10 +162,7 @@ li{
         margin: auto;
     }
     main{
-        display: grid;
         grid-template-columns: 100%;
-
-        margin: 0;
     }
     .card{
         border: none;
@@ -360,60 +171,53 @@ li{
     }
     .cards-participantes{
         grid-template-columns: 100%;
-        place-items: center;
-
-        margin: 0;
     }
 }
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 440px) {
     header{
         flex-direction: column;
         padding: 0;
         padding-bottom: 10px;
+        margin-bottom: 5px;
+        box-shadow: 0px 0px 0px transparent;
     }
     header .logo{
         display: flex;
         flex-direction: row;
     }
     header .logo h1{
-        font-size: 1.5em;
+        font-size: 1.7em;
     }
     .button{
         width: 130px;
         margin: auto;
     }
     main{
-        display: grid;
         grid-template-columns: 100%;
-
-        margin: 0;
     }
     .card{
         border: none;
         border-top: 5px solid rgb(151, 22, 184);
         border-radius: 0;
         padding: 0;
-        width: 300px;
+        width: 350px;
     }
     .card .img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9,.img10, .img11, .img12,.img13,.img14, .img15, .img16, .img17, .img18, .img19, .img20{
-        height: 150px;
-        width: 200px;
+        height: 200px;
+        width: 300px;
         margin: auto;
         margin-bottom: 10px;
     }
     .cards-participantes{
         grid-template-columns: 100%;
-        place-items: center;
-
-        margin: 0;
     }
 }
-@media screen and (max-width: 330px) {
-    header .logo h1{
-        font-size: 1.3em;
+@media screen and (max-width: 350px) {
+    .card{
+        width: 300px;
     }
     .card-par{
-        padding: 10px;
+        padding: 20px;
         width: 250px;
     }
 }
